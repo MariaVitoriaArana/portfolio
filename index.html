@@ -6,6 +6,7 @@
     <title>Portifólio Maria Vitória</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
+    <script src="https://kit.fontawesome.com/dc28b4f4a4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -15,15 +16,135 @@
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Formação</a></li>
                 <li><a href="#">Projetos</a></li>
-                <li><a href="#">Temas</a></li>
+                <li><a href="#"><i class="fa-solid fa-moon" style="color: rgb(255, 255, 255);"></i></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>dcdc</h1>
+        <section id="ficha">
+            <img src="imagens/mariaV-perfil.jpg" alt="Maria Vitória" class="foto">
+            <h1>Maria Vitória Arana Almeida</h1>
+            <p>texto descritivo</p>
+            <div id="social">
+                <a href="https://www.linkedin.com/in/maria-vitoria-arana-almeida-882aba355/"target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin" style="color: rgb(0, 0, 0);"></i></a>
+                <a href="https://github.com/MariaVitoriaArana"target="_blank" rel="nofollow"><i class="fa-brands fa-github" style="color: rgb(0, 0, 0);"></i></a>
+            </div>
+        </section>
+        <section id="detalhes">
+
+            <article id="skills">
+                <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
+                <div id = "skill-container">
+                    <div class="item"> 
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-code"></i>
+                                HTML/CSS
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="item"> 
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-code"></i>
+                                JavaScript 
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="item"> 
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-code"></i>
+                                MySQL 
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="item"> 
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-code"></i>
+                                Java 
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="item"> 
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-code"></i>
+                                C
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+
+            <article id="formacao">
+                <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+                <div id="formacao-container">
+
+                    <div class="curso">
+                        <p class="periodo">2025 - 2027</p>
+                        <h3 class="instituicao">Unicesumar</h3>
+                        <p class="titulacao">Análise e Desenvolvimento de Sistemas</p>
+                    </div>
+
+                    <div class="curso">
+                        <p class="periodo">2022 - 2024</p>
+                        <h3 class="instituicao">IEEM</h3>
+                        <p class="titulacao">Ensino Médio Ténico em Desenvolvimento de Sistemas</p>
+                    </div>
+                </div>
+            </article>
+
+            <article id="projetos">
+                <h2><i class="fa-solid fa-book-open"></i> Projetos</h2>
+                <div id="projeto-container">
+                    <div class="projeto">
+                        <img src="..." alt="Projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2024</p>
+                            <h3 class="titulo">Campo Minado <i class="fa-solid fa-bomb" style="color: rgb(105, 13, 13);"></i></h3>
+                            <p>Jogo</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus aliquid repellendus, iste aspernatur unde voluptate dicta laborum facere maxime tempore vel deleniti deserunt perferendis laboriosam modi eum accusantium quas!</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto">
+                        <img src="..." alt="Projeto 2" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2024</p>
+                            <h3 class="titulo">Infinity Chat<i class="fa-solid fa-comment-dots" style="color: rgb(150, 17, 17);"></i></h3>
+                            <p>Jogo</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus aliquid repellendus, iste aspernatur unde voluptate dicta laborum facere maxime tempore vel deleniti deserunt perferendis laboriosam modi eum accusantium quas!</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto">
+                        <img src="..." alt="Projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2024</p>
+                            <h3 class="titulo">Campo Minado <i class="fa-solid fa-bomb" style="color: rgb(105, 13, 13);"></i></h3>
+                            <p>Jogo</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus aliquid repellendus, iste aspernatur unde voluptate dicta laborum facere maxime tempore vel deleniti deserunt perferendis laboriosam modi eum accusantium quas!</p>
+                            </details>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+
+        </section>
     </main>
     <footer>
-
+        Desenvolvido por 
     </footer>
 
     <script src="scripts/script.js"></script>
